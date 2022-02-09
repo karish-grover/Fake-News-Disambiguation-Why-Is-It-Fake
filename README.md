@@ -29,9 +29,11 @@ containing the `100D` Glove embeddings of the tokens. We use F1 score,
 accuracy, precision and recall metrics to get a better idea of the
 models' performance on both the datasets. All the models were trained on
 a `80:10:10 train-test-val` split of the dataset.
+<p align ="center">
+<img width="594" alt="Screenshot 2022-02-09 at 6 22 26 PM" src="https://user-images.githubusercontent.com/64140048/153204867-0741557b-6378-4767-a88c-cdaa0ba0cbb5.png"></p>
 
 
- |                              | **Twitter15**                             ||||**Twitter16**                       ||||
+<!--  |                              | **Twitter15**                             ||||**Twitter16**                       ||||
  | ---------------------------- |--------- |---------- |--------- |-------- |--------- |---------- |--------- |------- |
  | **Method**                   | **Acc**  | **Prec**  | **Rec**  | **F1**  | **Acc**  | **Prec**  | **Rec**  | **F1** |
  | **NB** *w/* `Countvectors`     | 0.9301   |  0.9404   | 0.9080   | 0.9239  | 0.8932   |  0.8444   | 0.9047   | 0.8735 |
@@ -64,5 +66,5 @@ a `80:10:10 train-test-val` split of the dataset.
  | **BiGRU** *w/* `TrainEmb`      | 0.9032   |  0.8981   | 0.9326   | 0.9150  | 0.8932   |  0.8444   | 0.9047   | 0.8735 |
  | **RCNN** *w/* `TrainEmb`       | 0.8590   |  0.8571   | 0.8450   | 0.8510  | 0.8657   |  0.8101   | 0.9275   | 0.8648 |
  | **RCNN** *w/* `Multiple CNN`   | 0.9127   |  0.9189   | 0.9066   | 0.9127  | 0.9261   |  0.8676   | 0.9672   | 0.9147 |
-  
+   -->
   
